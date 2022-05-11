@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f0f2f5;
+  color: #1c1e21;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.logo {
+  height: 106px;
+}
+
+.tagline {
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+.content {
+  padding: 0 3rem;
+  text-align: center;
+}
+
+.form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+input {
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  display: block;
+  font-size: 16px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.password-input {
+  margin-top: 1rem;
+}
+
+.login-button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.forgot-password-link {
+  color: #1877f2;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #dadde1;
+  margin: 0.5rem 0;
+}
+
+.account-button {
+  background-color: #42b72a;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.create-page {
+  font-size: 14px;
+  margin-top: 2rem;
+}
+
+.create-page-link {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #fff;
+  font-size: 14px;
+  padding: 1.5rem 3rem;
+  position: sticky;
+  top: 100vh;
+}
+
+footer a {
+  color: #8a8d91;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
