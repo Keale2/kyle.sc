@@ -59,11 +59,13 @@ body {
 }
 
 .branding {
-  width: 396px;
+  max-width: 396px;
+  width: 100%;
 }
 
 .form-container {
-  width: 396px;
+  max-width: 396px;
+  width: 100%;
 }
 
 .form {
