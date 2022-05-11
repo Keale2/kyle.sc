@@ -19,6 +19,7 @@ body {
 
 .logo {
   height: 106px;
+  margin-left: -28px;
 }
 
 .tagline {
@@ -28,8 +29,41 @@ body {
 }
 
 .content {
+  align-items: center;;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(980px + 6rem);
   padding: 0 3rem;
   text-align: center;
+}
+
+@media screen and (min-width: 901px) {
+  .content {
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 8rem;
+  }
+
+  .branding {
+    text-align: left;
+    transform: translateY(-3rem);
+  }
+}
+
+@media screen and (min-width: 1176px) {
+  .tagline {
+    font-size: 28px;
+  }
+}
+
+.branding {
+  width: 396px;
+}
+
+.form-container {
+  width: 396px;
 }
 
 .form {
@@ -105,7 +139,8 @@ hr {
 
 footer {
   background-color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.5;
   padding: 1.5rem 3rem;
   position: sticky;
   top: 100vh;
@@ -113,9 +148,17 @@ footer {
 
 footer a {
   color: #8a8d91;
+  margin-right: 0.8rem;
   text-decoration: none;
 }
 
 footer a:hover {
   text-decoration: underline;
+}
+
+.copyright {
+  color: #8a8d91;
+  display: block;
+  font-size: 12px;
+  margin-top: 1rem;
 }
