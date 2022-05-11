@@ -34,29 +34,12 @@ body {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  max-width: calc(980px + 6rem);
-  padding: 0 3rem;
+  max-width: calc(980px + 2rem);
+  padding: 0 1rem;
   text-align: center;
 }
 
-@media screen and (min-width: 901px) {
-  .content {
-    flex-direction: row;
-    justify-content:space-between;
-    padding-top: 8rem;
-  }
 
-  .branding {
-    text-align: left;
-    transform: translateY(-3rem);
-  }
-}
-
-@media screen and (min-width: 1176px) {
-  .tagline {
-    font-size: 28px;
-  }
-}
 
 .branding {
   max-width: 396px;
@@ -148,7 +131,7 @@ footer {
   background-color: #fff;
   font-size: 12px;
   line-height: 1.5;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 1rem;
   position: sticky;
   top: 100vh;
 }
@@ -168,4 +151,34 @@ footer a:hover {
   display: block;
   font-size: 12px;
   margin-top: 1rem;
+}
+
+@media screen and (min-width: 481px) {
+  .content {
+    max-width: calc(980px + 6rem);
+    padding: 0 3rem;
+  }
+
+  footer {
+    padding: 1.5rem 3rem;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .content {
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 8rem;
+  }
+
+  .branding {
+    text-align: left;
+    transform: translateY(-3rem);
+  }
+}
+
+@media screen and (min-width: 1176px) {
+  .tagline {
+    font-size: 28px;
+  }
 }
